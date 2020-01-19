@@ -1,0 +1,61 @@
+name: congressos_sereducacional
+description: Aplicativo desenvolvido com Flutter para exibir a programação dos congressos do Grupo Ser Educacional.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+    
+  rxdart: ^0.22.3
+  bloc_pattern: ^2.3.4
+  
+  firebase_core: ^0.4.0+7
+  cloud_firestore: ^0.12.7
+  firebase_crashlytics: ^0.1.0+3
+  
+  shared_preferences: ^0.5.3+4
+  share: ^0.6.2+1
+  cached_network_image: ^2.0.0-rc
+  url_launcher: ^5.1.6
+  package_info: ^0.4.0+6
+  google_maps_flutter: ^0.5.20+6
+  flutter_custom_clippers: ^1.1.0
+  admob_flutter: "^0.3.1"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.4
+  flutter_native_splash: ^0.1.9
+
+flutter_icons:
+  android: "ic_launcher" 
+  ios: true
+  image_path: "assets/images/icon.png"
+
+flutter_native_splash:
+  image: assets/images/splash.png
+  color: 4caf50
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
