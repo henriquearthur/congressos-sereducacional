@@ -204,7 +204,7 @@ class _ExplorePageState extends State<ExplorePage> {
                                         Center(
                                           child: const AdmobBannerAd(
                                             adUnit:
-                                                'ca-app-pub-6254443832700241/5144522458',
+                                                'ca-app-pub-6254443832700241/1329434281',
                                           ),
                                         ),
                                         const SizedBox(height: 16),

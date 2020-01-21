@@ -13,7 +13,7 @@ class _AuthorInfoDialogState extends State<AuthorInfoDialog> {
 
   _launchPlayStore() async {
     const url =
-        'https://play.google.com/store/apps/details?id=br.com.henriquearthur.congressos_unama';
+        'https://play.google.com/store/apps/details?id=br.com.henriquearthur.congressos_sereducacional';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
@@ -60,8 +60,8 @@ class _AuthorInfoDialogState extends State<AuthorInfoDialog> {
             size: 56.0,
           ),
           Text(
-            "Congressos Unama",
-            style: TextStyle(color: Styles.primaryColor),
+            "Congressos Ser Educacional",
+            style: TextStyle(fontSize: 16.0, color: Styles.primaryColor),
           ),
           FutureBuilder(
             future: _appVersion,
@@ -86,19 +86,19 @@ class _AuthorInfoDialogState extends State<AuthorInfoDialog> {
         children: <Widget>[
           RichText(
             text: TextSpan(
-              text: 'Este app foi desenvolvido pelo aluno ',
+              text: 'Este app foi desenvolvido por ',
               style: Styles.dialogContentText,
               children: <TextSpan>[
                 TextSpan(
                     text: 'Henrique Arthur',
                     style:
                         TextStyle(fontWeight: Styles.primaryFontMediumWeight)),
-                TextSpan(text: ', graduando do curso de '),
+                TextSpan(text: ', graduado em '),
                 TextSpan(
                     text: 'Ciência da Computação ',
                     style:
                         TextStyle(fontWeight: Styles.primaryFontMediumWeight)),
-                TextSpan(text: 'na '),
+                TextSpan(text: 'pela '),
                 TextSpan(
                     text: 'Universidade da Amazônia (UNAMA).',
                     style:

@@ -11,8 +11,8 @@ abstract class Styles {
   static FontWeight primaryFontBoldWeight = FontWeight.w700;
 
   // Colors
-  static Color primaryColor = Colors.green;
-  static Color primaryColorDark = Colors.green[900];
+  static Color primaryColor = Colors.indigo;
+  static Color primaryColorDark = Colors.indigo[900];
 
   static Color textColor = Colors.grey[800];
 

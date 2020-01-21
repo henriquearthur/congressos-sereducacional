@@ -1,4 +1,4 @@
-package com.example.congressos_sereducacional
+package br.com.henriquearthur.congressos_sereducacional
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

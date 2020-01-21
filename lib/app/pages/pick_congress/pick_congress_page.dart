@@ -26,14 +26,14 @@ class PickCongressPage extends StatelessWidget {
               child: RichText(
                 text: TextSpan(
                   text:
-                      'Esses são os próximos congressos a serem realizados pela ',
+                      'Esses são os próximos congressos a serem realizados pelo ',
                   style: TextStyle(
                     fontFamily: Styles.primaryFontFamily,
                     color: Styles.textColor,
                   ),
                   children: <TextSpan>[
                     TextSpan(
-                        text: 'Universidade da Amazônia - UNAMA.',
+                        text: 'Grupo Ser Educacional.',
                         style: TextStyle(
                             fontWeight: Styles.primaryFontBoldWeight)),
                     TextSpan(
@@ -44,7 +44,7 @@ class PickCongressPage extends StatelessWidget {
               ),
             ),
             const AdmobBannerAd(
-                adUnit: 'ca-app-pub-6254443832700241/4073187785'),
+                adUnit: 'ca-app-pub-6254443832700241/9016352610'),
             StreamBuilder(
               stream: PickCongressModule.to
                   .bloc<PickCongressBloc>()

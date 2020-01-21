@@ -7,7 +7,7 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Congressos UNAMA',
+      title: 'Congressos Ser Educacional',
       theme: ThemeData(
         primarySwatch: Styles.primaryColor,
         primaryColor: Styles.primaryColor,

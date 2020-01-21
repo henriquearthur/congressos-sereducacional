@@ -182,7 +182,7 @@ class ViewLecturePage extends StatelessWidget {
             ],
             Center(
               child: const AdmobBannerAd(
-                adUnit: 'ca-app-pub-6254443832700241/3634347279',
+                adUnit: 'ca-app-pub-6254443832700241/2203532259',
               ),
             )
           ],

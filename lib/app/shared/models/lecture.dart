@@ -60,6 +60,10 @@ class Lecture {
       dateEnd = DateTime(dateYear, dateMonth, dateDay, hourEnd, minutesEnd);
     }
 
+    if ((data['title'] as String).isEmpty) {
+      data['title'] = data['type'];
+    }
+
     return Lecture(
       id: doc.documentID,
       title: data['title'] ?? '',
