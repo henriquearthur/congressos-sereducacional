@@ -1,16 +1,5 @@
-# congressos_sereducacional
+# Congressos UNAMA
+Aplicativo desenvolvido com Flutter para exibir a programação dos congressos do Grupo Ser Educacional.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Extração de dados
+Os dados são extraídos do site oficial de congressos [eventos.sereduc.com](https://eventos.sereduc.com) e são inseridos no Cloud Firestore para utilização pelo app. Mais detalhes em [congressos-ser-educacional-data-fetcher](https://github.com/henriquearthur/congressos-ser-educacional-data-fetcher).
